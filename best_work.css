@@ -1,0 +1,50 @@
+body {
+  background:#f4e8be;
+}
+header {
+  background-color:#efdfa3;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  heigt:20%; 
+}
+nav {
+  float: left;
+  width: 10%;
+  height: 1000px;
+  background:#ecdb9c;
+  padding: 10px;
+}
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size:40px
+  text-align: center;
+}
+ h1 {
+  border: 2px solid #efdfa3;
+  padding:20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:#f4e8be;
+  height: 300px; 
+}
+
+img {
+  height: 420;
+  width: 520px;
+  margin: 10px;
+  border-color: #efdfa3;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;

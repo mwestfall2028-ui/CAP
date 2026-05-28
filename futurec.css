@@ -1,0 +1,41 @@
+
+body {
+  background:#bad5f2;
+}
+header {
+  background-color:#95bfe9;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  heigt:20%; 
+}
+nav {
+  float: left;
+  width: 10%;
+  height: 1000px;
+  background:#a4c4e5;
+  padding: 10px;
+}
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size:40px
+  text-align: center;
+}
+ h1 {
+  border: 2px solid #95bfe9;
+  padding:20px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:#bad5f2;
+  height: 300px; 
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
